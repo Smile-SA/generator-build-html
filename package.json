@@ -1,0 +1,30 @@
+{
+  "name": "generator-build-html",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "Smile-SA/generator-build-html",
+  "author": {
+    "name": "Smile - Open Source Solutions",
+    "email": "opensource-contributions@smile.fr",
+    "url": "https://github.com/Smile-SA"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.20.3",
+    "chalk": "^1.1.1",
+    "yosay": "^1.0.5"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
